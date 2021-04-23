@@ -661,7 +661,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 08707ff85d10b2640b31a5cc8d34e027, type: 2}
   m_InitialState: 1
-  m_WrapMode: 2
+  m_WrapMode: 1
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -671,14 +671,16 @@ PlayableDirector:
     value: {fileID: 1123006192}
   - key: {fileID: 594628316919449474, guid: 08707ff85d10b2640b31a5cc8d34e027, type: 2}
     value: {fileID: 1532864632}
-  - key: {fileID: -3777857891394802306, guid: 08707ff85d10b2640b31a5cc8d34e027, type: 2}
-    value: {fileID: 1203280742}
   - key: {fileID: -3252469229389007110, guid: 08707ff85d10b2640b31a5cc8d34e027, type: 2}
     value: {fileID: 1119828708}
   - key: {fileID: 4871430157007086359, guid: 08707ff85d10b2640b31a5cc8d34e027, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 2774922143681709687, guid: 08707ff85d10b2640b31a5cc8d34e027, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 153e3dd1f5944a244af66b01ef42b8a1: {fileID: 1203280743}
+    - d9693855fb43a91428a16dea5b47bbb7: {fileID: 1203280743}
 --- !u!4 &1168797708
 Transform:
   m_ObjectHideFlags: 0
@@ -708,16 +710,28 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203280741}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: ac5146e981419eb47bde5320428356dd, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1203280743 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4596845291298035134, guid: f0edce66f0fcfd14fb167941093ed1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1564108757}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203280741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6983ab2008f7a9f499b3f8cd6bec328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &1532864632 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: ac5146e981419eb47bde5320428356dd,
@@ -731,16 +745,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 374275069428058810, guid: f0edce66f0fcfd14fb167941093ed1b8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 675457355300137358, guid: f0edce66f0fcfd14fb167941093ed1b8,
         type: 3}
       propertyPath: m_Name
       value: Metaball
+      objectReference: {fileID: 0}
+    - target: {fileID: 675457355300137358, guid: f0edce66f0fcfd14fb167941093ed1b8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2526621358574927446, guid: f0edce66f0fcfd14fb167941093ed1b8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6cfe423139c361a459da7ed9831d4b1c, type: 2}
+    - target: {fileID: 3057147091086583777, guid: f0edce66f0fcfd14fb167941093ed1b8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3416029198433127245, guid: f0edce66f0fcfd14fb167941093ed1b8,
         type: 3}
       propertyPath: m_LocalPosition.x
