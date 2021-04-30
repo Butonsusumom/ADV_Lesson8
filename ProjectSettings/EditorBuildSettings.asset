@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/0_First Steps/0-First Steps.unity
     guid: 5043a6db7ead9084d900bac02f124e4c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Portfolio7.unity
     guid: f69c5053366383d4b8a1881706125e0c
   m_configObjects: {}
